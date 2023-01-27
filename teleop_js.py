@@ -14,7 +14,7 @@ def get_numControllers():
 
 
 # SETUP
-engine = PhaseEnableMotor(phase=24, enable=18)
+engine = PhaseEnableMotor(phase=19, enable=26)
 kit = ServoKit(channels=8, address=0x40)
 steer = kit.servo[0]
 MAX_THROTTLE = 0.25
