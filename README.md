@@ -1,7 +1,6 @@
-# AutoAckermann
+# Behaviral Cloning Buggy
 Highly inspired by [DonkeyCar](https://www.donkeycar.com/) project,
-AutoAckermann is a light-weight implementation of autonomous vehicle using 
-modified RC cars.
+bc_buggy is a light-weight implementation of behavioral clone on modified RC cars.
 
 ## Part List
 | Name | Description | Qty. | Price per Unit |
