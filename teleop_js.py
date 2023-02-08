@@ -18,8 +18,8 @@ engine = PhaseEnableMotor(phase=19, enable=26)
 kit = ServoKit(channels=8, address=0x40)
 steer = kit.servo[0]
 MAX_THROTTLE = 0.25
-STEER_CENTER = 100
-MAX_STEER = 50
+STEER_CENTER = 90
+MAX_STEER = 60
 assert MAX_THROTTLE <= 1
 steer.angle = 90
 display.init()
